@@ -6,7 +6,7 @@ load_dotenv()
 
 from models import Item
 
-NAME = os.getenv('NAME', default="World")
+NAME = os.getenv('NAME', default="Mew")
 
 app = FastAPI()
 
