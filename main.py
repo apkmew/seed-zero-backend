@@ -61,6 +61,7 @@ def usersInfo(userId: int):
 @app.post("/item/create/")
 def itemCreator(item: Item):
     # TODO: Print body's name and price to console.
+    print(item.name, item.price)
     return item.name, item.price
 
 
